@@ -5,7 +5,7 @@ import time
 
 
 con = psycopg2.connect(database="postgres", user=os.environ['USER'], port="5432")
-#con_string = "dbname= 'postgres' user='postgres' password='251170'"
+#con_string = "dbname= 'postgres' user='postgres'
 #con = psycopg2.connect(con_string)
 cur = con.cursor()
 
